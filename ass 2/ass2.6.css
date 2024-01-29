@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(231, 240, 253);
+}
+
+.arrow span {
+    font-size: 10px;
+    position: absolute;
+    top: 35px;
+}
+
+a,
+li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    padding: 8px;
+    color: black;
+}
+
+a {
+    cursor: pointer;
+}
+
+.header .log button {
+    cursor: pointer;
+    height: 35px;
+    width: 135px;
+    background-color: rgba(224, 215, 255, 0.906);
+    color: rgb(112, 42, 233);
+    border: none;
+    border-radius: 3%;
+    letter-spacing: 0.6px;
+    margin: 0 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.menu ul li {
+    margin: 0 10px;
+}
+
+.bar {
+    font-size: 35px;
+    color: rgb(62, 61, 61);
+    float: right;
+}
+
+.logo h3 {
+    font-size: 25px;
+}
+
+.main h1,
+h3,
+p {
+    padding: 10px;
+    color: rgb(62, 61, 61);
+
+}
+
+.main h1 {
+    font-size: 2rem;
+}
+
+.main button {
+    height: 38px;
+    width: 100px;
+    background-color: rgb(119, 69, 213);
+    color: white;
+    margin-left: -6px;
+    border: none;
+    letter-spacing: .6px;
+    border-radius: 3%;
+    cursor: pointer;
+}
+
+.main .toptitle {
+    border-radius: 20px;
+    background-color: rgb(237, 250, 218);
+    width: fit-content;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.main span {
+    background-color: rgb(106, 198, 56);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    margin-right: 10px;
+}
+
+.main input {
+    height: 38px;
+    width: 220px;
+    text-align: center;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+}
+
+.graph img {
+    height: auto;
+    width: 100%;
+}
+
+.graph {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 2px 2px rgb(211, 213, 213);
+    margin: 0 220px;
+}
+
+p {
+    text-align: center;
+}
+
+.btm {
+    margin-top: 50px;
+}
+
+.brands {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.brands .fb p {
+    color: rgb(21, 70, 174);
+    font-size: 30px;
+}
+
+.brands .g p {
+    color: rgb(250, 131, 4);
+    font-size: 30px;
+}
+
+.brands .hub p {
+    color: green;
+    font-size: 30px;
+}
+
+.brands .air p {
+    color: red;
+    font-size: 30px;
+}
+
+.brands .sl p {
+    color: black;
+    font-size: 30px;
+}
+
+
+@media (max-width:576px) {
+
+    .menu,
+    .log {
+        display: none
+    }
+
+    .main {
+        margin: auto
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .bar {
+        display: block;
+    }
+
+    .top {
+        justify-content: space-between;
+    }
+
+    .main button {
+        width: 220px;
+    }
+
+    .graph {
+        max-width: 600px;
+        margin: 0 0px;
+        height: auto;
+        width: 90vw;
+        margin: auto;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media (min-width:576px) {
+
+    .menu,
+    .log {
+        display: flex
+    }
+
+    .bar {
+        display: none;
+    }
+
+    .main {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .graph {
+        max-width: 900px;
+        margin: 0 120px;
+        height: auto;
+        width: 90vw;
+        margin: auto;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media (max-with:768) {
+
+    .menu,
+    .log {
+        display: flex
+    }
+
+    .bar {
+        display: none;
+    }
+
+    .main {
+        max-width: 800px;
+        text-align: center;
+
+    }
+
+    .graph {
+        max-width: 700px;
+        margin: 0 120px;
+        height: auto;
+        width: 90vw;
+        margin: auto;
+        background-position: center;
+        background-size: cover;
+    }
+}

@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.hero .arrow span {
+    padding: 7px;
+    background-color: grey;
+    color: black;
+    font-size: 13px;
+
+}
+
+.hero .arrow span:hover {
+    background-color: rgb(202, 69, 16);
+    ;
+    color: white;
+}
+
+
+.nav {
+    padding-top: 30px;
+    margin: 10px 90px;
+}
+
+.logo {
+    border: 2px solid white;
+    display: flex;
+    width: 78px;
+    height: 35px;
+    margin: 0px 60px;
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+.header {
+
+    background-image: url(hot_air.jpg);
+    background-size: cover;
+    height: auto;
+    width: auto;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+    z-index: 1;
+    position: absolute;
+}
+
+.menu {
+    margin: 0px 50px;
+}
+
+.container {
+    position: relative;
+}
+
+.blk {
+    background-color: black;
+    opacity: 0.7;
+    height: 700px;
+    width: 1400px;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 0px;
+    z-index: 4;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: white;
+    padding: 15px;
+    letter-spacing: 2px;
+}
+
+.hero h3 {
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+
+}
+
+.hero p {
+    max-width: 450px;
+    margin: auto;
+    color: white;
+    padding: 30px;
+    font-size: 17px;
+}
+
+.btn {
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    height: 30px;
+    width: 180px;
+    padding-top: 6px;
+    margin-right: 8px;
+    display: inline-block;
+
+}
+
+.btn a {
+    color: white;
+}
+
+.center span {
+    color: rgb(202, 69, 16);
+    margin: 15px;
+    font-size: 22px;
+}
+
+
+.center {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 590px;
+    z-index: 5;
+    left: 602px;
+    border: 1px solid black;
+    box-shadow: 0px -2px 4px rgb(218, 214, 205);
+}
+
+.l,
+.ogo p {
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.l {
+    background-color: white;
+    color: black;
+    align-items: center;
+    padding: -1px;
+
+}
+
+.ogo {
+    background-color: transparent;
+    color: white;
+    align-items: center;
+
+    margin: 0px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+
+.menu .navmenu a:hover {
+    color: rgb(202, 69, 16);
+    text-decoration: underline;
+
+}
+
+.hero .btn:hover {
+    background-color: rgb(202, 69, 16);
+}
+
+.footer .box {
+    max-width: 220px;
+    margin-left: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    z-index: 5;
+    position: absolute;
+    margin-top: 700px;
+    text-align: center;
+    margin-left: 90px;
+}
+
+.footer h3 {
+    padding: 20px;
+    color: black;
+}
+
+.footer h3:hover {
+    color: rgb(202, 69, 16);
+}
+
+.footer .box span {
+    font-size: 18px;
+    color: rgb(202, 69, 16);
+    border: 1px solid gray;
+    padding: 18px;
+    margin-bottom: 5px;
+
+}
+
+.footer .box span:hover {
+    transform: rotateZ(45deg);
+    border-color: rgb(202, 69, 16);
+
+
+}

@@ -1,0 +1,34 @@
+          html
+
+
+1• What are the new tags added in HTML5?
+
+ans. <article>
+     <aside>
+     <details>
+     <figcaption>
+     <figure>
+     <footer>
+     <header>
+     <main>
+
+
+2• How to embed audio and video in a webpage?
+
+ans. with the use of <audio> and <video> tag we can add media in webpage.
+
+     Audio: <audio><source src="file_name" type="audio_file_type"></audio>
+
+     Video: <video><source src="file_name" type="video_file_type"></video> 
+
+3• Semantic element in HTML5?
+
+ans.  A semantic element clearly describes its meaning to both the browser and the developer.
+
+Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+
+Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+
+4• Canvas and SVG tags ?
+
+ans.SVG (Scalable Vector Graphics) is an XML-based markup language that describes 2D vector graphics. Canvas is a JavaScript API that allows users to draw on the HTML Canvas element.
